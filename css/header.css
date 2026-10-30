@@ -1,11 +1,23 @@
+.header {
+  padding: 24px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
 .logo-header {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .logo-web {
@@ -16,7 +28,22 @@
   color: #2e2f42;
 }
 
+.main-nav {
+  margin-left: 76px;
+  margin-right: auto;
+}
+
+.heder-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.heder-item {
+}
+
 .menu-link {
+  display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -29,6 +56,20 @@
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.contact-item {
+  font-weight: 400;
 }
 
 .contact-link {
